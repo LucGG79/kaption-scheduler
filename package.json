@@ -1,0 +1,12 @@
+{
+  "name": "kaption-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Envia as mensagens agendadas da Kaption pela Evolution API, sem depender do computador ligado.",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  }
+}
